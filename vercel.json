@@ -1,0 +1,62 @@
+{
+  "rewrites": [
+    {
+      "source": "/proxy/:match/:url*/",
+      "destination": "https://:match/:url*/"
+    },
+    {
+      "source": "/httpproxy/:match/:url*/",
+      "destination": "http://:match/:url*/"
+    },
+    {
+      "source": "/wsproxy/:match/:url*",
+      "destination": "ws://:match/:url*"
+    },
+    {
+      "source": "/wssproxy/:match/:url*",
+      "destination": "wss://:match/:url*"
+    },
+    {
+      "source": "/ftpproxy/:match/:url*",
+      "destination": "ftp://:match/:url*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*).(ttf|otf|woff2|woff|eot|json)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*).css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(_next/static|static)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
